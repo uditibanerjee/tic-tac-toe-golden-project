@@ -43,6 +43,9 @@ function setup(){
 function draw(){
   background(bgImage);
   
+  textSize(18)
+  fill("yellow")
+  
   if(turn===1){
     text("X turn",180,10)
   }
